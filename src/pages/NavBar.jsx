@@ -10,25 +10,27 @@ import { Link } from 'react-router-dom';
 const NavBar = () => {
 
     return (
-
-        <Navbar collapseOnSelect expand="lg" className="bg-light shadow">
+        <Navbar collapseOnSelect expand="lg" className="bg-light shadow mb-0 position-sticky">
             <Container>
-                <Link to='/' className=''>
-                    <Navbar.Brand className='text-danger'><FontAwesomeIcon icon={faShop} className='me-2 text-danger' />Maahi-Store</Navbar.Brand>
-                </Link>
+                <Navbar.Brand as={Link} to={'/'} className='text-decoration-none text-danger'>
+                    <FontAwesomeIcon icon={faShop} className='me-2 text-danger' />
+                    Maahi-Store
+                </Navbar.Brand>
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                 <Navbar.Collapse id="responsive-navbar-nav">
                     <Nav className="me-auto">
                     </Nav>
-                    <Nav >
-                        <Nav.Link href="#deets">More deets</Nav.Link>
-                        <Nav.Link eventKey={2} href="#memes">
-                            Dank memes
+                    <Nav>
+                        <Nav.Link as={Link} to={'/gallery'} className=' text-decoration-none text-dark'>
+                            Gallery
+                        </Nav.Link>
+                        <Nav.Link as={Link} to={'/contact'} className=' text-decoration-none text-dark'>
+                            Contact
                         </Nav.Link>
                     </Nav>
                 </Navbar.Collapse>
             </Container>
-        </Navbar>
+        </Navbar >
     )
 }
 

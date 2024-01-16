@@ -1,10 +1,13 @@
 import React from 'react'
+import Carousels from './Carousels'
+import About from './About'
 
 const Home = () => {
     return (
-        <div>
-            Shad
-        </div>
+        <>
+            <Carousels />
+            <About />
+        </>
     )
 }
 
