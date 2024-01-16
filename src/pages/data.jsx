@@ -11,6 +11,7 @@ import image10 from './image/10.jpg'
 import image11 from './image/11.jpg'
 import image12 from './image/12.jpg'
 import image13 from './image/13.jpg'
+import cashew from './image/fruits/cashew-5981774_1920.png'
 
 
 const images = [
@@ -19,16 +20,16 @@ const images = [
 
 const CarouselData = [
     {
-        name: 'Car Servicing',
-        desc: 'Qualified Car Repair Service Center',
+        name: 'Cashew',
+        desc: 'Beast Cashew we are provide',
         bgImage: image2,
-        // frontImage: carousel1,
+        frontImage: cashew,
     },
     {
-        name: 'Car Washing',
-        desc: 'Qualified Car Washing Center',
+        name: 'Cashew',
+        desc: 'Beast Cashew we are provide',
         bgImage: image1,
-        // frontImage: carousel2,
+        frontImage: cashew,
     },
 ];
 

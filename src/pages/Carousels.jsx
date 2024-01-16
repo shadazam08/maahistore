@@ -6,7 +6,7 @@ import { CarouselData } from './data';
 
 const Carousels = () => {
     return (
-        <Carousel className='container-fluid p-0 mb-5' style={{ height: 'calc(100vh - 18vh)' }}>
+        <Carousel className='container-fluid p-0 mb-5' style={{ height: 'calc(100vh - 20vh)' }}>
             {
                 CarouselData.map((data, index) => (
                     <Carousel.Item key={index} className='carousel-item' style={{ height: 'calc(100vh - 20vh)' }} interval={1500}>
@@ -20,7 +20,7 @@ const Carousels = () => {
                                         <a href='' className='btn btn-primary py-3 px-5 animated slideInDown'>Learn More <FontAwesomeIcon icon={faArrowRight} className='ms-3' /></a>
                                     </div>
                                     <div className='col-lg-5 d-none d-lg-flex animated zoomIn'>
-                                        <img className='img-fluid' alt='' />
+                                        <img className='img-fluid' src={data.frontImage} alt='' />
                                     </div>
                                 </div>
                             </div>
