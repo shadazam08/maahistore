@@ -1,6 +1,6 @@
 # My Simple General Store Project
 
-in this projet i have use technology bootstrap, scss, animated, wowjs react js
+in this projet i have use technology `bootstrap, scss, animated, wowjs react js`
 
 ## Deployed Project
 
