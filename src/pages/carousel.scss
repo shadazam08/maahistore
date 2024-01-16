@@ -1,0 +1,35 @@
+.container-fluid {
+    padding: 0;
+    margin-bottom: 5rem;
+    height: calc(100vh - 20vh);
+
+    @media (max-width: 767px) {
+        height: auto;
+    }
+
+    .carousel-item {
+        height: calc(100vh - 20vh);
+
+        @media (max-width: 767px) {
+            height: auto;
+        }
+    }
+
+    .carousel-caption {
+        .container {
+            .row {
+                .col-10 {
+                    @media (max-width: 767px) {
+                        text-align: center;
+                    }
+                }
+
+                .col-lg-5 {
+                    @media (max-width: 767px) {
+                        display: none;
+                    }
+                }
+            }
+        }
+    }
+}

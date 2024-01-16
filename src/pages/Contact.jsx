@@ -1,12 +1,8 @@
 import React from 'react';
-import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet';
-import 'leaflet/dist/leaflet.css'
+// import './contact.scss'
 
 const Contact = () => {
-    const center = [26.126774959436194, 85.89053246850133];
-    const zoom = 13;
     const companyAddress = 'Maahi Store,  Maharajganj, in front of Hadayatullah sb. Laheriasarai, Darbhanga, Bihar 846001';
-    // 26.126774959436194, 85.89053246850133
     // Maharajganj, in front of Hadayatullah sb. Laheriasarai, Darbhanga, Bihar 846001
     const companyName = 'Maahi Store'
     return (

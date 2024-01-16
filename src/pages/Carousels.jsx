@@ -3,13 +3,14 @@ import Carousel from 'react-bootstrap/Carousel';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faArrowRight } from '@fortawesome/free-solid-svg-icons';
 import { CarouselData } from './data';
+import './carousel.scss';
 
 const Carousels = () => {
     return (
-        <Carousel className='container-fluid p-0 mb-5' style={{ height: 'calc(100vh - 20vh)' }}>
+        <Carousel className='container-fluid p-0 mb-5' >
             {
                 CarouselData.map((data, index) => (
-                    <Carousel.Item key={index} className='carousel-item' style={{ height: 'calc(100vh - 20vh)' }} interval={1500}>
+                    <Carousel.Item key={index} className='carousel-item' interval={1500}>
                         <img className='w-100' src={data.bgImage} alt='image1' />
                         <Carousel.Caption className='carousel-caption d-flex align-items-center'>
                             <div className='container'>
