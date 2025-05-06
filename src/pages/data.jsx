@@ -16,7 +16,7 @@ import ajwa from "./image/fruits/Ajwa-Dates.png";
 import almond from "./image/fruits/Almond.png";
 import walnuts from "./image/fruits/Walnuts.png";
 
-const images = [image1, image2, image3, image4, image5, image6, image7, image8, image9, image10, image11, image12, image13];
+const getImages = [image1, image2, image3, image4, image5, image6, image7, image8, image9, image10, image11, image12, image13];
 
 const CarouselData = [
   {
@@ -45,4 +45,4 @@ const CarouselData = [
   },
 ];
 
-export { images, CarouselData };
+export { getImages, CarouselData };

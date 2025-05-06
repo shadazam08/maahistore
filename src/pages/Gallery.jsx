@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import { Container, Row, Col, Modal } from 'react-bootstrap';
-import { images } from './data';
+import { getImages } from './data';
 
 
 const Gallery = () => {
@@ -17,11 +17,11 @@ const Gallery = () => {
     return (
         <Container className=' mt-2'>
             <Row>
-                {images.map((imageUrl, index) => (
+                {getImages.map((imageUrl, index) => (
                     <Col key={index} xs={12} md={4} className="mb-4">
                         <img
                             src={imageUrl}
-                            alt={`Image ${index + 1}`}
+                            alt={`getImage ${index + 1}`}
                             className="img-fluid"
                             style={{ cursor: 'pointer' }}
                             onClick={() => handleImageClick(imageUrl)}
