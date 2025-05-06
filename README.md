@@ -4,7 +4,7 @@ in this projet i have use technology `bootstrap, scss, wowjs react js`
 
 ## Deployed Project
 
-Check out the live version of my project: [Maahi Genral Store](https://maahi-store.vercel.app/)
+Check out the live version of my project: [Maahi Genral Store](https://maahistore.vercel.app/)
 
 ---
 
